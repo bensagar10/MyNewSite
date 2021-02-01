@@ -1,0 +1,199 @@
+/*******************HTMLTags**************************/
+body
+{
+margin: 0;
+text-align: center;
+font-family: 'Comic Neue', cursive;
+background-color: #f05454;
+}
+
+/*cursive,fantasy,inherit,monospace,sans-serif,serif*/
+h1
+{
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+color: #0a043c;
+
+}
+
+h2
+{
+font-size: 2.5rem;
+padding-bottom: 10px;
+color: #0a043c;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+h3
+{
+color: #252525;
+font-weight: bold;
+}
+
+a
+{
+color: #6930c3;
+margin: 10px 20px;
+text-decoration: none;
+font-size: 125%;
+}
+
+a:hover
+{
+color: #EAF6F6;
+}
+
+hr
+{
+border: dotted 6px;
+border-bottom: none;
+width: 4%;
+margin: 0 auto;
+}
+
+div
+{
+padding 0px;
+}
+
+
+/*************************Class************************/
+
+.top-container
+{
+position: relative;
+padding-top: 120px;
+background-color: #f88f01;
+}
+
+.middle-container
+{
+margin: 100px 0;
+background-color: #e27802;
+padding: 160px 0;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.bottom-container
+{
+background-color: #939b62;
+padding: 20px 0;
+}
+
+.bottom-cloud
+{
+position: absolute;
+left: 250px;
+bottom: 300px;
+}
+
+.top-cloud
+{
+position: absolute;
+right: 350px;
+top: 40px;
+}
+
+.my-image
+{
+width: 200px;
+height: 200px;
+padding: 20px;
+}
+
+.giphy-img
+{
+width: 25%;
+margin-right: 30px;
+float: left;
+}
+
+.second-skill-image
+{
+width: 20%;
+margin-left: 30px;
+float: right;
+}
+
+.skills
+{
+background-color: #ffd56b;
+padding: 100px;
+
+}
+
+
+.contact-me
+{
+padding-top: 40px;
+padding-bottom: 0px;
+background-color: #939b62;
+width: 100%;
+margin: 0;
+}
+
+.prg
+{
+font-weight: normal;
+}
+
+.skill-row
+{
+width: 50%;
+margin: 50px auto;
+text-align: left;
+line-height: 2;
+}
+
+.designation
+{
+font-size: 1.5rem;
+
+}
+
+.reason
+{
+font-size : 1.1rem;
+font-weight: 500;
+}
+
+.btn {
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   height: 0;
+   line-height: 0;
+   color: black;
+   font-family: 'Comic Neue', cursive;
+   width: 15%;
+   font-size: 26px;
+   padding: 24px;
+   background-color: #e27802;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #F88F01;
+   border: solid #F88F01 1px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.copyright
+{
+color: #ffd56b;
+font-size: 0.75rem;
+padding: 20px 0;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
